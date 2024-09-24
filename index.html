@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FakeStore Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Fakestore Website</h1>
+    </header>
+
+    <div id="search-bar">
+        <input type="text" id="search-input" placeholder="Search for products...">
+    </div>
+
+    <section id="products-section">
+        <div id="products-container"></div>
+    </section>
+
+    <section id="cart-section">
+        <h2>Cart</h2>
+        <div id="cart-items"></div>
+        <div id="price-details">
+            <h3>Price Details</h3>
+            <p>Total MRP: <span id="total-mrp">₹0</span></p>
+            <p>Coupon Discount: <span id="discount">₹0</span></p>
+            <p>Platform Fee: ₹10</p>
+            <p>Shipping Charges: ₹20</p>
+            <h4>Total Amount: <span id="total-amount">₹0</span></h4>
+            <button id="place-order">Place Order</button>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
