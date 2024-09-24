@@ -71,7 +71,4 @@ To get the project running locally on your machine, follow these steps:
 - **Payment Integration**: Add real payment gateway for order processing.
 - **Improved Discount System**: Dynamically apply discount codes based on user input.
 - **Order History**: Allow users to view their order history and previous purchases.
-  
 
-
-Feel free to edit any sections as per your project requirements!
